@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+    <a class="navbar-brand mr-1" [routerLink]="'overview'">{{ "Life" | translate }}{{ "Style" | translate }} </a>
+
+
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#"
+        (click)="sidebarToggle()">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="form-group">
+
+
+    </div>
+
+    <!-- <div class="dropdown" cusDropdown>
+        <a class="nav-link text-white dropdown-toggle selected-language" id="languageDropDown" cusDropdownToggle
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ selectedLanguage  }}
+        </a>
+        <ul class="dropdown-menu dropdown-menu-right languageDropDown" aria-labelledby="languageDropDown"
+            cusDropdownMenu>
+            <li><a class="dropdown-item" href="#" (click)="languageChanges('Ru' , $event)">Ru</a></li>
+            <li><a class="dropdown-item" href="#" (click)="languageChanges('En' , $event)">En</a></li>
+        </ul>
+    </div> -->
+    
+    <div class="dropdown-container-translate">
+            
+        <!-- <app-translate></app-translate> -->
+    </div>
+</nav>

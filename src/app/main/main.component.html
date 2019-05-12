@@ -1,0 +1,8 @@
+<app-navbar (toggleBtnClicked)="toggleBtnClicked($event)"></app-navbar>
+<div id="wrapper">
+    <app-sidebar [toggled]="toggled" [class.toggled]="toggled" class="tog"></app-sidebar>
+    <div id="content-wrapper">
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    </div>
+</div>

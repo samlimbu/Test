@@ -1,0 +1,16 @@
+.panel .share-buttons a {
+ 
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+  }
+
+  .share-buttons{
+      display: flex;
+      align-items: center;
+  }
+
+  .share-buttons> button{
+      margin-left: auto;
+  }

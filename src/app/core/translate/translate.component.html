@@ -1,0 +1,8 @@
+    <a class="nav-link dropdown-toggle selected-language" id="languageDropDown" cusDropdownToggle
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" [style.color]="color">
+        {{ selectedLanguage  }}
+    </a>
+    <ul class="dropdown-menu dropdown-menu-right languageDropDown" aria-labelledby="languageDropDown" cusDropdownMenu>
+        <li><a class="dropdown-item" href="#" (click)="languageChanges('Ru' , $event)">Ru</a></li>
+        <li><a class="dropdown-item" href="#" (click)="languageChanges('En' , $event)">En</a></li>
+    </ul>

@@ -1,0 +1,33 @@
+div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+app-sidebar, .content-wrapper{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    /* padding-top: 1rem; */
+    padding-bottom: 80px;
+  }
+  .toggled{
+    width: 60px !important;
+    transition: width 0.25s;
+    -webkit-transition: width 0.25s;
+}
+
+.tog{
+    width: 220px;
+    transition: width 0.25s;
+    -webkit-transition: width 0.25s;
+}

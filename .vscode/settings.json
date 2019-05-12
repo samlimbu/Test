@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 16,
+    "editor.tabSize": 6,
+    "editor.wordWrap": "on"
+}

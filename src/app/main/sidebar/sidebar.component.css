@@ -1,0 +1,20 @@
+.small-gap{
+    margin-left:10px;
+}
+
+.toggled .small-gap{
+    margin-left: 0px !important;
+}
+
+
+.sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover {
+    color: rgb(70, 181, 255) !important;
+}
+
+.active-link{
+    color: rgb(70, 181, 255) !important;
+}
+
+.active{
+    color: rgb(70, 181, 255) !important;
+}

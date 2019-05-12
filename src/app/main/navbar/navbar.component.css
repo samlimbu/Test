@@ -1,0 +1,13 @@
+a:hover{
+    cursor: pointer;
+}
+a:visited{
+    color: white;
+}
+/* a{
+    padding: 0.5rem 1rem;
+} */
+
+.dropdown-container-translate{
+    display: flex;
+}
